@@ -1,0 +1,14 @@
+.build_container_image:
+  image:
+    name: gcr.io/kaniko-project/executor:debug
+    entrypoint: [""]
+  variables:
+    DOCKERFILE_LOCATION: "unset"
+    CONTAINER_NAME: "unset"
+    TAG_NAME: "unset"
+  script:
+    - echo "DOCKERFILE_LOCATION" $DOCKERFILE_LOCATION
+    - echo "CONTAINER_NAME" $CONTAINER_NAME
+    - echo "TAG_NAME" $TAG_NAME
+    - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+    - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $DOCKERFILE_LOCATION --destination $CI_REGISTRY_IMAGE/$CONTAINER_NAME:$TAG_NAME

@@ -1,0 +1,138 @@
+{
+    "frames": [
+        {
+            "filename": "acidgun_die1",
+            "frame": {
+                "w": 100,
+                "h": 100,
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "acidgun_die2",
+            "frame": {
+                "w": 100,
+                "h": 100,
+                "x": 100,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "acidgun_die3",
+            "frame": {
+                "w": 100,
+                "h": 100,
+                "x": 200,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "acidgun_die4",
+            "frame": {
+                "w": 100,
+                "h": 100,
+                "x": 300,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "acidgun_die5",
+            "frame": {
+                "w": 100,
+                "h": 100,
+                "x": 400,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "acidgun_die6",
+            "frame": {
+                "w": 100,
+                "h": 100,
+                "x": 0,
+                "y": 100
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "acidgun_die7",
+            "frame": {
+                "w": 100,
+                "h": 100,
+                "x": 100,
+                "y": 100
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "acidgun_die8",
+            "frame": {
+                "w": 100,
+                "h": 100,
+                "x": 200,
+                "y": 100
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "acidgun_die9",
+            "frame": {
+                "w": 100,
+                "h": 100,
+                "x": 300,
+                "y": 100
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "acidgun_die10",
+            "frame": {
+                "w": 100,
+                "h": 100,
+                "x": 400,
+                "y": 100
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}
